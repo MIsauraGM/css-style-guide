@@ -14,7 +14,7 @@ Lee el punto 4 de la [guía de estilos de CSS propuesta por Google](https://goog
 * Ejemplo: Para poner .author {} no usar .atr ya que podría dar a entender que se refiere a un atributo.
 
 **C. Evita selectores de antecesores en la medida de posible.**
-* Ayuda al rendimiento. *
+* Ayuda al rendimiento. 
 
 **D. Usa las versiones cortas para definir las propiedas.**
 * Ayuda a la eficiencia y comprensión del código.
