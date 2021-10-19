@@ -4,7 +4,7 @@ Realiza las siguientes actividades y sube los cambios a tu repositorio.
 ## **1. Lee la guía de estilos para CSS propuesta por Google**
 Lee el punto 4 de la [guía de estilos de CSS propuesta por Google](https://google.github.io/styleguide/htmlcssguide.html#CSS).
 
-## **2. Detecta y corrige los errores de estilo en el código HTML del fichero index.html**
+## **2. Detecta y corrige los errores de estilo en el código CSS del fichero css-no-valido.html**
 
 **A. Usa nombres de clases e id significativos.**
 * Trata de evitar nombres sin significado y que sean lo más genéricos posibles. 
