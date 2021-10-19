@@ -4,19 +4,6 @@ Realiza las siguientes actividades y sube los cambios a tu repositorio.
 ## **1. Lee la guía de estilos para CSS propuesta por Google**
 Lee el punto 4 de la [guía de estilos de CSS propuesta por Google](https://google.github.io/styleguide/htmlcssguide.html#CSS).
 
-Aquí te dejo algunos puntos a destacar:
-
-* No usar tabulador, sino 2 espacios (en Python, por ejemplo,  son 4 espacios).
-* Usar siempre minúscula.
-* Elimina los espacios en blanco innecesario, sobre todo al final de las líneas.
-* Usa UTF-8 (no BOM).
-* Usa comentarios cuando sean necesarios (sin excederse).
-* Incluye TODO con aquello que está pendiente de realizar.
-* Usa los tags de HTML para lo que realmente son.
-* Omite type para la carga de CSS y Javascript, salvo que sea necesario.
-* Usa una línea nueva para cada bloque y utiliza la indentación.
-* Es preferible usar comillas dobles a las simples cuando hay que incluir valores en las propiedades en HTML, pero usa comillas simples cuando uses CSS.
-
 ## **2. Detecta y corrige los errores de estilo en el código HTML del fichero index.html**
 
 **A. Usa nombres de clases e id significativos.**
