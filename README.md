@@ -48,7 +48,7 @@ Aquí te dejo algunos puntos a destacar:
 
 **J. Evitar hacer uso de los detectores de navegadores y "hacks de CSS.**
 
-**K. Ordenar alfabéticamente las declaraciones. **
+**K. Ordenar alfabéticamente las declaraciones.**
 
 **L. Sangra el contenido de cada bloque.**
 * Las reglas dentro de las reglas y las declaraciones, para reflejar la jerarquía y mejorar la comprensión.
