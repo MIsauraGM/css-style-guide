@@ -62,7 +62,7 @@ Lee el punto 4 de la [guía de estilos de CSS propuesta por Google](https://goog
 * Separa secciones con nuevas líneas.
 
 ## **3. Valida el código de ambas páginas.**
-* Haz uso del validador de la W3C https://validator.w3.org/.
+* Haz uso del validador de la W3C https://jigsaw.w3.org/css-validator/.
 * ¿Hay algún error o "warning" detectado en alguna de las hojas de estilo que ya has corregido?
 * Corrígelos y vuelve a validarlo.
 
