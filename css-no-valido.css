@@ -58,7 +58,7 @@
 /* I. Separa las palabras en ID y nombres de clases con un guión. */
 .demo-image {
   margin: 0;
-  padding: 1 1 0;
+  padding: 1px 1px 0px;
   font-size: 0.8em;
   color: #ebc;
 }
