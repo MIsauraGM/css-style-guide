@@ -1,68 +1,120 @@
-<!-- Esto es un CSS no válido -->
+/* Esto es un CSS válido. */
 
-<!--[if IE]>
-     <link rel="stylesheet" href="css/ie.css" type="text/css"/>
-<![endif]-->
+/* Q. Uso de comillas: */
+@import url(https://www.google.com/css/maia.css);
 
-#yee-1901 {}
+/* J. Evitar hacer uso de los detectores de navegadores y "hacks de CSS. (Borrado) */
+
+/* A. Usa nombres de clases e id significativos.*/
+/* #yee-1901 {} 
 .button-green {}
 .clear {}
-#navigation {}
-.atr {}
-
-ul#example {}
-div.error {}
-
-.error_status {
-border-top-style: none;
-font-family: palatino, georgia, serif;
-font-size: 100%;
-line-height: 1.6;
-padding-bottom: 2em;
-padding-left: 1em;
-padding-right: 1em;
-padding-top: 0;
+*/
+/* Se han incluido estilos a las reglas ya que no es válido tener una regla vacía en CSS.*/
+#gallery {
+  color: green;
 }
-.demoimage {margin: 0px;
-padding: 1 1 0px;
-font-size: 0.8em;
-olor: #eebbcc;}
 
+#navigation {
+  color: green;
+}
 
--moz-border-radius: 4px;
--webkit-border-radius: 4px;
-background: fuchsia;
-border: 1px solid;
-text-align: center;
-text-indent: 2em;
-border-radius: 4px;
-color: black;
+.video {
+  color: green;
+}
 
-  h1 {
-    background: #fff;
-    color: #444;
-  }
+.aux {
+  color: green;
+}
 
+.alt {
+  color: green;
+}
+
+/* B. Usa nombre de clases e ID los más cortos posibles. */
+/* .atr {} es corto pero puede dar lugar a pensar que es un atributo en lugar de un autor.*/
+.autor {
+  color: green;
+}
+
+/* C. Evitar antecesores en la medida de lo posible. */
+#example {
+  color: green;
+}
+.error {
+  color: green;
+}
+
+/* D. Usa las versiones cortas para definir las propiedades. */
+.error_status {
+  border-top-style: none;
+  font: 100%/1.6 palatino, georgia, serif;
+  padding: 0 1em 2em;
+}
+
+/* E. No uses la unidad después del valor 0. */
+/* F. No coloques ceros delante de valores entre -1 y 1. */
+/* G. Usa tres valores en el código hexadecimal cuando sea posible.*/
+/* I. Separa las palabras en ID y nombres de clases con un guión. */
+.demo-image {
+  margin: 0;
+  padding: 1 1 0;
+  font-size: 0.8em;
+  color: #ebc;
+}
+
+/* H. Usa prefijos en proyectos grandes. */
+.diw-gallery {
+  color: green;
+}
+.diw-video {
+  color: green;
+}
+
+/* Reglas definidas sin asociar a un selector. */
+/* K. Ordenar alfabéticamente las declaraciones.*/
+div {
+  background: fuchsia;
+  border: 1px solid;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: black;
+  text-align: center;
+  text-indent: 2em;
+}
+
+/* L. Sangra el contenido de cada bloque. */
+h1 {
+  background: #fff;
+  color: #444;
+}
+
+/* M. Utiliza un punto y coma después de cada declaración. */
 .test {
   display: block;
-  height: 100px
+  height: 100px;
 }
 
+/* N. Usa un espacio después de los dos puntos del nombre de una propiedad. */
 h3 {
-  font-weight:bold;
+  font-weight: bold;
 }
-
-#video{
+/* Ñ. Utiliza un espacio entre el último selector y el bloque de declaración. */
+#video {
   margin-top: 1em;
 }
 
-#video
-{
+/* O. Siempre empieza una nueva línea por cada selector.*/
+#video {
   margin-top: 1em;
 }
 
-a:focus, a:active {
-  position: relative; top: 1px;
+/* P. Separar una regla de otra por una línea en blanco. */
+a:focus,
+a:active {
+  position: relative;
+  top: 1px;
 }
 
 html {
@@ -73,20 +125,26 @@ body {
   width: 50%;
 }
 
-@import url("https://www.google.com/css/maia.css");
-
 html {
   font-family: "open sans", arial, sans-serif;
 }
 
+/* R. Uso de comentarios: */
+
 /* Header */
 
-#adw-header {}
+#adw-header {
+  color: green;
+}
 
 /* Footer */
 
-#adw-footer {}
+#adw-footer {
+  color: green;
+}
 
 /* Gallery */
 
-.adw-gallery {}
+.adw-gallery {
+  color: green;
+}
